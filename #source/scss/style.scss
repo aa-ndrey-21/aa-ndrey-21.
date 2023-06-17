@@ -124,7 +124,7 @@ img{
 /* Intro start */
 .intro {
    min-height: 100vh;
-   background: url("../img/intro_bg.jpg") no-repeat center;
+   background: url("../img/intro_bg-min.jpg") no-repeat center;
    background-size: cover; 
    padding-top: 260px;
    padding-bottom: 376px;
@@ -601,19 +601,10 @@ img{
       flex: 50%;
    }
 
-   &__logo {
-   }
-
    &__nav {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-   }
-
-   &__menu {
-   }
-
-   &__menu-item {
    }
 
    &__menu-title {
@@ -715,7 +706,7 @@ img{
    }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
    .container{
       padding: 15px 15px;
    }
